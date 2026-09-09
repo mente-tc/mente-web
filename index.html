@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mente Yazılım Enerji Danışmanlık Ltd. Şti. — İstanbul merkezli bağımsız danışmanlık: yazılım, enerji altyapısı, hassas imalat/honlama ve e-dönüşüm.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.mente.com.tr/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon-32.png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mente">
+<meta property="og:title" content="Mente — Yazılım, Enerji ve İmalat Teknolojileri Danışmanlığı">
+<meta property="og:description" content="2014'ten bu yana yazılım, enerji altyapısı, hassas imalat ve e-dönüşüm projelerinde bağımsız danışmanlık.">
+<meta property="og:url" content="https://www.mente.com.tr/">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://www.mente.com.tr/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Mente Yazılım Enerji Danışmanlık Ltd. Şti.","alternateName":"Mente","url":"https://www.mente.com.tr/","logo":"https://www.mente.com.tr/assets/logo-mente.png","email":"info@mente.com.tr","foundingDate":"2014","address":{"@type":"PostalAddress","addressLocality":"Kadıköy","addressRegion":"İstanbul","addressCountry":"TR"},"knowsAbout":["Yazılım danışmanlığı","Enerji ve EV şarj altyapısı","Honlama ve hassas imalat","e-Dönüşüm"]}
+</script>
+<style>*{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Mente Danışmanlık</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#14181A; --ink-2:#3C4548; --muted:#6E7A7D;
+  --paper:#F3F5F1; --surface:#FFFFFF; --surface-2:#EAEDE8;
+  --line:#D9DED6; --line-soft:#E7EBE4;
+  --accent:#17505E; --accent-ink:#0E3D48; --accent-soft:#E0EAEC;
+  --signal:#A96C1F;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --display:"Archivo","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --rail:132px;
+  --maxw:1120px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#E9ECE8; --ink-2:#B6BFBB; --muted:#7F8B8B;
+    --paper:#0F1213; --surface:#161A1B; --surface-2:#1D2223;
+    --line:#2A3132; --line-soft:#222829;
+    --accent:#74B9C6; --accent-ink:#9BD2DC; --accent-soft:#16292E;
+    --signal:#D19A50;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#E9ECE8; --ink-2:#B6BFBB; --muted:#7F8B8B;
+  --paper:#0F1213; --surface:#161A1B; --surface-2:#1D2223;
+  --line:#2A3132; --line-soft:#222829;
+  --accent:#74B9C6; --accent-ink:#9BD2DC; --accent-soft:#16292E;
+  --signal:#D19A50;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display); text-wrap:balance; margin:0; letter-spacing:-0.02em}
+p{margin:0}
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+@media (prefers-reduced-motion: reduce){*{animation:none!important; transition:none!important}}
+
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+
+/* ---------- header ---------- */
+.top{
+  position:sticky; top:0; z-index:20;
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.top-in{display:flex; align-items:center; gap:24px; height:62px}
+.brand{display:flex; align-items:baseline; gap:11px; text-decoration:none; margin-right:auto}
+.mark{
+  font-family:Georgia,"Times New Roman","Nimbus Roman",serif;
+  font-weight:400; font-size:25px; line-height:1; letter-spacing:-0.005em;
+  color:var(--ink);
+}
+.brand-sub{font-family:var(--mono); font-size:10.5px; letter-spacing:0.14em; color:var(--muted); text-transform:uppercase}
+@media (max-width:520px){ .brand-sub{display:none} }
+.nav{display:flex; gap:22px}
+.nav a{
+  font-size:13.5px; text-decoration:none; color:var(--ink-2);
+  padding-bottom:2px; border-bottom:1px solid transparent;
+}
+.nav a:hover{color:var(--ink); border-bottom-color:var(--accent)}
+.tools-btn{display:flex; gap:6px}
+.chip{
+  font-family:var(--mono); font-size:11px; letter-spacing:.06em;
+  background:none; border:1px solid var(--line); color:var(--ink-2);
+  padding:5px 9px; cursor:pointer; border-radius:2px; line-height:1;
+}
+.chip:hover{border-color:var(--accent); color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--paper)}
+@media (max-width:860px){ .nav{display:none} }
+
+/* ---------- rail layout ---------- */
+.sec{border-bottom:1px solid var(--line-soft)}
+.sec-in{
+  display:grid; grid-template-columns:var(--rail) 1fr; gap:36px;
+  padding:72px 0;
+}
+.code{
+  font-family:var(--mono); font-size:11px; letter-spacing:.14em;
+  color:var(--muted); text-transform:uppercase; padding-top:6px;
+  border-top:2px solid var(--accent); align-self:start;
+}
+@media (max-width:820px){
+  .sec-in{grid-template-columns:1fr; gap:20px; padding:52px 0}
+  .code{max-width:132px}
+}
+
+/* ---------- hero ---------- */
+.hero{padding:88px 0 64px}
+.eyebrow{
+  font-family:var(--mono); font-size:11.5px; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--accent); margin-bottom:26px;
+}
+h1{font-size:clamp(34px,5.4vw,58px); font-weight:600; line-height:1.06; max-width:15ch}
+.lede{margin-top:26px; max-width:60ch; font-size:clamp(16.5px,1.6vw,19px); color:var(--ink-2)}
+.specs{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
+  background:var(--line); border:1px solid var(--line);
+  margin-top:52px;
+}
+.spec{background:var(--paper); padding:16px 18px}
+.spec dt{font-family:var(--mono); font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted)}
+.spec dd{margin:5px 0 0; font-family:var(--display); font-weight:600; font-size:15.5px; font-variant-numeric:tabular-nums}
+@media (max-width:720px){ .specs{grid-template-columns:repeat(2,1fr)} }
+
+/* ---------- headings ---------- */
+h2{font-size:clamp(24px,3vw,32px); font-weight:600; line-height:1.15}
+.sec-note{margin-top:14px; max-width:56ch; color:var(--ink-2); font-size:15.5px}
+
+/* ---------- services ---------- */
+.svc-list{margin-top:38px; border-top:1px solid var(--line)}
+.svc{
+  display:grid; grid-template-columns:44px 1.05fr 1.2fr; gap:28px;
+  padding:26px 0; border-bottom:1px solid var(--line);
+  align-items:start;
+}
+.svc-n{font-family:var(--mono); font-size:12px; color:var(--accent); padding-top:4px; letter-spacing:.05em}
+.svc h3{font-size:19px; font-weight:600; letter-spacing:-0.01em}
+.svc-tags{margin-top:10px; display:flex; flex-wrap:wrap; gap:6px}
+.tag{
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.05em;
+  color:var(--muted); border:1px solid var(--line); padding:3px 7px; border-radius:2px;
+}
+.svc p{color:var(--ink-2); font-size:15px}
+@media (max-width:720px){
+  .svc{grid-template-columns:32px 1fr; gap:14px 16px}
+  .svc div:last-child{grid-column:2}
+}
+
+/* ---------- tools ---------- */
+.tools{margin-top:38px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px}
+.tool{
+  background:var(--surface); border:1px solid var(--line);
+  padding:22px; display:flex; flex-direction:column; gap:12px;
+  text-decoration:none;
+}
+.tool:hover{border-color:var(--accent)}
+.tool h3{font-size:17px; font-weight:600}
+.tool p{font-size:14.5px; color:var(--ink-2)}
+.tool .meta{
+  margin-top:auto; display:flex; justify-content:space-between; align-items:baseline;
+  font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.05em;
+  border-top:1px solid var(--line-soft); padding-top:11px;
+}
+.tool .go{color:var(--accent)}
+
+/* ---------- approach ---------- */
+.appr{margin-top:38px; display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:34px}
+.appr h3{font-size:16.5px; font-weight:600; margin-bottom:8px; padding-top:13px; border-top:2px solid var(--ink)}
+.appr p{font-size:14.5px; color:var(--ink-2)}
+
+/* ---------- partners ---------- */
+.prt{margin-top:34px; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line)}
+.prt > div{background:var(--paper); padding:20px}
+.prt strong{font-family:var(--display); font-size:16px; font-weight:600; display:block}
+.prt span{font-family:var(--mono); font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; color:var(--accent); display:block; margin:8px 0 6px}
+.prt p{font-size:14px; color:var(--ink-2)}
+.draft{
+  margin-top:16px; font-family:var(--mono); font-size:11.5px; color:var(--signal);
+  border-left:2px solid var(--signal); padding-left:10px; line-height:1.5;
+}
+
+/* ---------- about ---------- */
+.about{margin-top:24px; display:grid; grid-template-columns:1.3fr 1fr; gap:44px; align-items:start}
+.about p + p{margin-top:14px}
+.about p{color:var(--ink-2); max-width:58ch}
+.cv{border:1px solid var(--line); background:var(--surface)}
+.cv div{display:flex; justify-content:space-between; gap:16px; padding:12px 16px; border-bottom:1px solid var(--line-soft); font-size:14px}
+.cv div:last-child{border-bottom:0}
+.cv dt{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted)}
+.cv dd{margin:0; text-align:right; font-weight:500}
+@media (max-width:820px){ .about{grid-template-columns:1fr; gap:28px} }
+
+/* ---------- contact ---------- */
+.contact{padding:76px 0}
+.contact h2{font-size:clamp(26px,3.4vw,38px); max-width:18ch}
+.cta{margin-top:30px; display:flex; flex-wrap:wrap; gap:12px; align-items:center}
+.btn{
+  display:inline-block; text-decoration:none; font-family:var(--mono); font-size:13px;
+  letter-spacing:.04em; padding:12px 20px; border:1px solid var(--accent);
+  background:var(--accent); color:var(--paper);
+}
+.btn.ghost{background:none; color:var(--accent)}
+.btn:hover{background:var(--accent-ink); border-color:var(--accent-ink); color:var(--paper)}
+.contact .lines{margin-top:34px; display:flex; flex-wrap:wrap; gap:34px}
+.contact .lines div{font-size:14.5px}
+.contact .lines dt{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-bottom:4px}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line); background:var(--surface-2)}
+.foot-mark{padding:46px 0 10px}
+.foot-mark .mark{font-size:clamp(52px,9.5vw,112px); display:block; line-height:0.95}
+.foot-mark p{font-family:var(--mono); font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-top:16px}
+.foot-in{display:flex; flex-wrap:wrap; gap:20px 40px; justify-content:space-between; padding:30px 0; font-family:var(--mono); font-size:11.5px; color:var(--muted); letter-spacing:.04em}
+.foot-in a{color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top"><span class="mark">Mente.</span><span class="brand-sub" data-en="Consulting Ltd.">Danışmanlık Ltd. Şti.</span></a>
+    <nav class="nav">
+      <a href="#hizmetler" data-en="Services">Hizmetler</a>
+      <a href="#araclar" data-en="Tools">Araçlar</a>
+      <a href="#yaklasim" data-en="Approach">Yaklaşım</a>
+      <a href="#ortaklar" data-en="Partners">İş Ortakları</a>
+      <a href="#hakkinda" data-en="About">Hakkında</a>
+      <a href="#iletisim" data-en="Contact">İletişim</a>
+    </nav>
+    <div class="tools-btn">
+      <button class="chip" id="lang" aria-pressed="false">EN</button>
+      <button class="chip" id="theme" aria-label="Tema">◐</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="sec">
+    <div class="wrap hero">
+      <p class="eyebrow" data-en="Software · Energy · Manufacturing technologies">Yazılım · Enerji · İmalat teknolojileri</p>
+      <h1 data-en="Engineering judgement, applied to business decisions.">Mühendislik disiplinini işletme kararlarına taşıyoruz.</h1>
+      <p class="lede" data-en="Mente is an independent consultancy based in Istanbul. Since 2014 we have worked on software, energy infrastructure, precision manufacturing and e-transformation projects — turning them into solutions that hold up on the shop floor, not just on paper.">Mente, İstanbul merkezli bağımsız bir danışmanlık şirketidir. 2014'ten bu yana yazılım, enerji altyapısı, hassas imalat ve e-dönüşüm projelerinde; kâğıt üstünde değil sahada işleyen çözümler üretiyoruz.</p>
+      <dl class="specs">
+        <div class="spec"><dt data-en="Founded">Kuruluş</dt><dd>2014</dd></div>
+        <div class="spec"><dt data-en="Head office">Merkez</dt><dd data-en="Kadıköy, Istanbul">Kadıköy, İstanbul</dd></div>
+        <div class="spec"><dt data-en="Structure">Yapı</dt><dd data-en="Limited company">Limited Şirket</dd></div>
+        <div class="spec"><dt data-en="Experience">Deneyim</dt><dd data-en="27 years">27 yıl</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- HİZMETLER -->
+  <section class="sec" id="hizmetler">
+    <div class="wrap sec-in">
+      <p class="code" data-en="Services">Hizmetler</p>
+      <div>
+        <h2 data-en="Four fields, one method">Dört alan, tek yöntem</h2>
+        <p class="sec-note" data-en="The subjects differ; the way of working does not. Measure first, define the problem in numbers, then build only what is needed.">Konular farklı, çalışma biçimi aynı: önce ölç, problemi sayılarla tanımla, sonra yalnızca gerekeni kur.</p>
+
+        <div class="svc-list">
+          <article class="svc">
+            <div class="svc-n">01</div>
+            <div>
+              <h3 data-en="Software &amp; digital solutions">Yazılım ve dijital çözümler</h3>
+              <div class="svc-tags">
+                <span class="tag" data-en="Process automation">Süreç otomasyonu</span>
+                <span class="tag" data-en="Web applications">Web uygulamaları</span>
+                <span class="tag" data-en="Reporting">Raporlama</span>
+                <span class="tag" data-en="Integration">Entegrasyon</span>
+              </div>
+            </div>
+            <p data-en="Recurring manual work stuck in spreadsheets, moved into tools that run themselves: monthly reports, calculation engines, data flows between systems. Small, well-defined applications that a team can own after handover.">Excel'e sıkışmış, her ay elle tekrarlanan işleri kendi kendine çalışan araçlara taşıyoruz: aylık raporlar, hesap motorları, sistemler arası veri akışı. Devir sonrası ekibin sahiplenebileceği, sınırları net uygulamalar.</p>
+          </article>
+
+          <article class="svc">
+            <div class="svc-n">02</div>
+            <div>
+              <h3 data-en="Honing &amp; precision manufacturing">Honlama ve hassas imalat</h3>
+              <div class="svc-tags">
+                <span class="tag" data-en="Machine selection">Tezgâh seçimi</span>
+                <span class="tag" data-en="Cycle time">Çevrim süresi</span>
+                <span class="tag" data-en="Cost per bore">Delik başı maliyet</span>
+                <span class="tag" data-en="Capacity planning">Kapasite planlama</span>
+              </div>
+            </div>
+            <p data-en="Bore finishing at micron tolerances: which machine fits the part, what the real cycle time is, what a bore actually costs in stone consumption, and whether the planned capacity holds. Analysis grounded in machine data, not catalogue promises.">Mikron toleransında delik işleme: hangi tezgâh parçaya uyar, gerçek çevrim süresi nedir, bir deliğin taş tüketimi cinsinden maliyeti kaçtır, planlanan kapasite tutar mı. Katalog vaadine değil, tezgâh verisine dayanan analiz.</p>
+          </article>
+
+          <article class="svc">
+            <div class="svc-n">03</div>
+            <div>
+              <h3 data-en="Energy &amp; EV charging infrastructure">Enerji ve EV şarj altyapısı</h3>
+              <div class="svc-tags">
+                <span class="tag" data-en="Charging operations">Şarj işletmeciliği</span>
+                <span class="tag" data-en="Platform migration">Platform geçişi</span>
+                <span class="tag" data-en="Regulation">Mevzuat</span>
+                <span class="tag" data-en="Contracts">Sözleşme</span>
+              </div>
+            </div>
+            <p data-en="Charging network operations from the operator's side: platform selection and migration, service agreements, and the regulatory framework that governs the licence — planned so that the cutover does not interrupt service.">Şarj ağı işletmeciliğine işletmeci tarafından bakış: platform seçimi ve geçişi, hizmet sözleşmeleri, lisansı çerçeveleyen mevzuat. Geçişin hizmeti kesintiye uğratmayacak şekilde planlanması.</p>
+          </article>
+
+          <article class="svc">
+            <div class="svc-n">04</div>
+            <div>
+              <h3 data-en="e-Transformation">e-Dönüşüm</h3>
+              <div class="svc-tags">
+                <span class="tag">e-Fatura</span>
+                <span class="tag">e-Arşiv</span>
+                <span class="tag">e-İrsaliye</span>
+                <span class="tag">e-Defter</span>
+              </div>
+            </div>
+            <p data-en="Moving to electronic documents without disrupting the accounting cycle: obligation thresholds, choosing between integrator and direct integration, mapping the ERP side, and the archive discipline that follows.">Muhasebe döngüsünü bozmadan elektronik belgeye geçiş: yükümlülük eşikleri, entegratör mü doğrudan entegrasyon mu, ERP tarafının eşlenmesi ve sonrasında gelen arşiv disiplini.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARAÇLAR -->
+  <section class="sec" id="araclar">
+    <div class="wrap sec-in">
+      <p class="code" data-en="Tools">Araçlar</p>
+      <div>
+        <h2 data-en="Calculators, open to use">Herkese açık hesaplayıcılar</h2>
+        <p class="sec-note" data-en="Tools built for our own project work, published as they are. They run in the browser, need no installation and no account.">Kendi proje çalışmalarımız için geliştirdiğimiz, olduğu gibi yayınladığımız araçlar. Tarayıcıda çalışır; kurulum ve üyelik gerektirmez.</p>
+
+        <div class="tools">
+          <a class="tool" href="/honingcalc">
+            <h3 data-en="Honing Time Calculator">Honlama Süre Hesaplayıcı</h3>
+            <p data-en="Cycle time per part and batch, from bore geometry, stock removal and machine parameters. Machine list is editable; capacity planning and history included.">Delik geometrisi, talaş payı ve tezgâh parametrelerinden parça ve parti bazında çevrim süresi. Tezgâh listesi düzenlenebilir; kapasite planlama ve geçmiş kayıt dâhil.</p>
+            <div class="meta"><span data-en="Output: min / part">Çıktı: dk / parça</span><span class="go">→</span></div>
+          </a>
+          <a class="tool" href="/tascalc">
+            <h3 data-en="Stone Consumption &amp; Cost Calculator">Honlama Taşı Maliyet Hesaplayıcı</h3>
+            <p data-en="Cost per bore and stone set life, from part dimensions, stone set specification and unit cost. Built on the same formula set used in production costing.">Parça ölçüleri, taş seti özellikleri ve birim maliyetten delik başı maliyet ve set ömrü. Üretim maliyetlendirmesinde kullanılan formül setine dayanır.</p>
+            <div class="meta"><span data-en="Output: USD / bore">Çıktı: USD / delik</span><span class="go">→</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YAKLAŞIM -->
+  <section class="sec" id="yaklasim">
+    <div class="wrap sec-in">
+      <p class="code" data-en="Approach">Yaklaşım</p>
+      <div>
+        <h2 data-en="How we work">Nasıl çalışıyoruz</h2>
+        <div class="appr">
+          <div>
+            <h3 data-en="Measurement before solution">Önce ölçüm, sonra çözüm</h3>
+            <p data-en="A proposal starts with the current numbers: cycle times, unit costs, error rates, invoice volumes. Without a baseline there is nothing to compare the result against.">Öneri, mevcut sayılarla başlar: çevrim süreleri, birim maliyetler, hata oranları, fatura hacmi. Başlangıç değeri olmadan sonucun karşılaştırılacağı bir referans da olmaz.</p>
+          </div>
+          <div>
+            <h3 data-en="Independent by design">Tedarikçi değil, danışman</h3>
+            <p data-en="We do not resell hardware, licences or platforms in these projects. The recommendation is not tied to what happens to be in stock.">Bu projelerde donanım, lisans veya platform satışı yapmıyoruz. Öneri, elde ne varsa ona göre şekillenmiyor.</p>
+          </div>
+          <div>
+            <h3 data-en="Handover, not dependency">Bağımlılık değil, devir</h3>
+            <p data-en="Every output is documented so the client's own team can run it: formulas open, assumptions written down, tools maintainable without us.">Her çıktı, müşterinin kendi ekibinin yürütebileceği şekilde belgelenir: formüller açık, varsayımlar yazılı, araçlar bizsiz de sürdürülebilir.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İŞ ORTAKLARI -->
+  <section class="sec" id="ortaklar">
+    <div class="wrap sec-in">
+      <p class="code" data-en="Partners">İş Ortakları</p>
+      <div>
+        <h2 data-en="Who we work with">Birlikte çalıştığımız kurumlar</h2>
+        <p class="sec-note" data-en="Long-running collaborations across manufacturing, energy and software.">İmalat, enerji ve yazılım alanlarında süregelen iş birlikleri.</p>
+        <div class="prt">
+          <div>
+            <strong>[Firma adı 1]</strong>
+            <span data-en="Manufacturing technology">İmalat teknolojisi</span>
+            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+          </div>
+          <div>
+            <strong>[Firma adı 2]</strong>
+            <span data-en="Energy / charging">Enerji / şarj</span>
+            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+          </div>
+          <div>
+            <strong>[Firma adı 3]</strong>
+            <span data-en="Software">Yazılım</span>
+            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+          </div>
+          <div>
+            <strong>[Firma adı 4]</strong>
+            <span data-en="Consulting">Danışmanlık</span>
+            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+          </div>
+        </div>
+        <p class="draft" data-en="DRAFT — fill in the names yourself. Only name a company whose written or verbal consent you have; otherwise describe the sector without naming it (&quot;a Swiss precision machine manufacturer&quot;).">TASLAK — isimleri sen dolduracaksın. Yalnızca yazılı ya da sözlü onayını aldığın firmaları isimle yaz; onay yoksa isim vermeden sektörle tarif et ("İsviçreli bir hassas tezgâh üreticisi").</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAKKINDA -->
+  <section class="sec" id="hakkinda">
+    <div class="wrap sec-in">
+      <p class="code" data-en="About">Hakkında</p>
+      <div>
+        <h2 data-en="Turgut Coşkun">Turgut Coşkun</h2>
+        <div class="about">
+          <div>
+            <p data-en="Twenty-seven years in computer engineering and management, spent between software and heavy industry rather than in one of them. That mix is the reason Mente exists: manufacturing problems are rarely only mechanical, and software problems are rarely only technical.">Yirmi yedi yıllık bilgisayar mühendisliği ve yöneticilik geçmişi; yalnızca yazılımda ya da yalnızca sanayide değil, ikisinin arasında geçti. Mente'nin varlık sebebi de bu: imalat problemleri nadiren sadece mekanik, yazılım problemleri nadiren sadece teknik olur.</p>
+            <p data-en="Alongside consulting work, an active role in technical sales of precision honing machines — which keeps the shop-floor side of the advice current rather than theoretical.">Danışmanlık işinin yanında hassas honlama tezgâhlarının teknik satışında aktif rol; verilen tavsiyenin saha tarafını teorik değil, güncel tutuyor.</p>
+            <p data-en="Mente was founded in 2014 as a single-partner limited company and works project by project.">Mente 2014'te tek ortaklı limited şirket olarak kuruldu ve proje bazlı çalışıyor.</p>
+          </div>
+          <dl class="cv">
+            <div><dt data-en="Focus">Odak</dt><dd data-en="Software / Energy / Manufacturing">Yazılım / Enerji / İmalat</dd></div>
+            <div><dt data-en="Experience">Deneyim</dt><dd data-en="27 years">27 yıl</dd></div>
+            <div><dt data-en="Languages">Diller</dt><dd data-en="Turkish, English">Türkçe, İngilizce</dd></div>
+            <div><dt data-en="Location">Konum</dt><dd data-en="Istanbul">İstanbul</dd></div>
+            <div><dt data-en="Engagement">Çalışma</dt><dd data-en="Project based">Proje bazlı</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İLETİŞİM -->
+  <section id="iletisim">
+    <div class="wrap contact">
+      <h2 data-en="Tell us the problem in numbers — we will tell you whether it is worth solving.">Problemi sayılarla anlatın; çözmeye değip değmeyeceğini birlikte görelim.</h2>
+      <div class="cta">
+        <a class="btn" href="mailto:info@mente.com.tr">info@mente.com.tr</a>
+        <a class="btn ghost" href="mailto:tc@mente.com.tr" data-en="Direct contact">Doğrudan iletişim</a>
+      </div>
+      <dl class="lines">
+        <div><dt data-en="Office">Ofis</dt><dd data-en="Kadıköy, Istanbul">Kadıköy, İstanbul</dd></div>
+        <div><dt data-en="Phone">Telefon</dt><dd>[+90 ___ ___ __ __]</dd></div>
+        <div><dt data-en="Hours">Çalışma saatleri</dt><dd data-en="Weekdays 09:00 – 18:00">Hafta içi 09:00 – 18:00</dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-mark">
+    <span class="mark">Mente.</span>
+    <p data-en="Software · Energy · Consulting — Istanbul">Yazılım · Enerji · Danışmanlık — İstanbul</p>
+  </div>
+  <div class="wrap foot-in">
+    <span>© 2026 Mente Yazılım Enerji Danışmanlık Ltd. Şti.</span>
+    <span data-en="Trade registry / Tax office: [to be filled]">Ticaret sicil / Vergi dairesi: [doldurulacak]</span>
+    <span><a href="mailto:info@mente.com.tr">info@mente.com.tr</a> · mente.com.tr</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var langBtn = document.getElementById('lang');
+  var themeBtn = document.getElementById('theme');
+  var nodes = Array.prototype.slice.call(document.querySelectorAll('[data-en]'));
+  nodes.forEach(function(n){ n.setAttribute('data-tr', n.textContent); });
+
+  function setLang(l){
+    nodes.forEach(function(n){ n.textContent = n.getAttribute(l === 'en' ? 'data-en' : 'data-tr'); });
+    root.lang = l;
+    langBtn.textContent = l === 'en' ? 'TR' : 'EN';
+    langBtn.setAttribute('aria-pressed', l === 'en' ? 'true' : 'false');
+    try{ localStorage.setItem('mente-lang', l); }catch(e){}
+  }
+  langBtn.addEventListener('click', function(){ setLang(root.lang === 'en' ? 'tr' : 'en'); });
+  try{ var sl = localStorage.getItem('mente-lang'); if(sl === 'en') setLang('en'); else setLang('tr'); }
+  catch(e){ setLang('tr'); }
+
+  function setTheme(t){
+    if(t) root.setAttribute('data-theme', t); else root.removeAttribute('data-theme');
+    try{ t ? localStorage.setItem('mente-theme', t) : localStorage.removeItem('mente-theme'); }catch(e){}
+  }
+  try{ var st = localStorage.getItem('mente-theme'); if(st) setTheme(st); }catch(e){}
+  themeBtn.addEventListener('click', function(){
+    var cur = root.getAttribute('data-theme');
+    if(!cur){
+      var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setTheme(dark ? 'light' : 'dark');
+    } else {
+      setTheme(cur === 'dark' ? 'light' : 'dark');
+    }
+  });
+})();
+</script>
+</body>
+</html>
