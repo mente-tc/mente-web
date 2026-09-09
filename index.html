@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Mente Yazılım Enerji Danışmanlık Ltd. Şti. — İstanbul merkezli bağımsız danışmanlık: yazılım, enerji altyapısı, hassas imalat/honlama ve e-dönüşüm.">
+<meta name="description" content="Mente Yazılım Enerji Danışmanlık Ltd. Şti. — İstanbul merkezli bağımsız danışmanlık: yazılım ve süreç otomasyonu, enerji altyapısı, e-dönüşüm.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.mente.com.tr/">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -11,8 +11,8 @@
 <link rel="apple-touch-icon" href="/assets/icon-180.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mente">
-<meta property="og:title" content="Mente — Yazılım, Enerji ve İmalat Teknolojileri Danışmanlığı">
-<meta property="og:description" content="2014'ten bu yana yazılım, enerji altyapısı, hassas imalat ve e-dönüşüm projelerinde bağımsız danışmanlık.">
+<meta property="og:title" content="Mente — Yazılım, Enerji ve e-Dönüşüm Danışmanlığı">
+<meta property="og:description" content="2014'ten bu yana yazılım, enerji altyapısı ve e-dönüşüm projelerinde bağımsız danışmanlık.">
 <meta property="og:url" content="https://www.mente.com.tr/">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:image" content="https://www.mente.com.tr/assets/og-image.png">
@@ -20,7 +20,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Mente Yazılım Enerji Danışmanlık Ltd. Şti.","alternateName":"Mente","url":"https://www.mente.com.tr/","logo":"https://www.mente.com.tr/assets/logo-mente.png","email":"info@mente.com.tr","foundingDate":"2014","address":{"@type":"PostalAddress","addressLocality":"Kadıköy","addressRegion":"İstanbul","addressCountry":"TR"},"knowsAbout":["Yazılım danışmanlığı","Enerji ve EV şarj altyapısı","Honlama ve hassas imalat","e-Dönüşüm"]}
+{"@context":"https://schema.org","@type":"Organization","name":"Mente Yazılım Enerji Danışmanlık Ltd. Şti.","alternateName":"Mente","url":"https://www.mente.com.tr/","logo":"https://www.mente.com.tr/assets/logo-mente.png","email":"tc@mente.com.tr","foundingDate":"2014","address":{"@type":"PostalAddress","addressLocality":"Kadıköy","addressRegion":"İstanbul","addressCountry":"TR"},"knowsAbout":["Yazılım danışmanlığı","Süreç otomasyonu","Enerji ve EV şarj altyapısı","e-Dönüşüm"]}
 </script>
 <style>*{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Mente Danışmanlık</title>
@@ -85,8 +85,6 @@ p{margin:0}
   font-weight:400; font-size:25px; line-height:1; letter-spacing:-0.005em;
   color:var(--ink);
 }
-.brand-sub{font-family:var(--mono); font-size:10.5px; letter-spacing:0.14em; color:var(--muted); text-transform:uppercase}
-@media (max-width:520px){ .brand-sub{display:none} }
 .nav{display:flex; gap:22px}
 .nav a{
   font-size:13.5px; text-decoration:none; color:var(--ink-2);
@@ -127,15 +125,6 @@ p{margin:0}
 }
 h1{font-size:clamp(34px,5.4vw,58px); font-weight:600; line-height:1.06; max-width:15ch}
 .lede{margin-top:26px; max-width:60ch; font-size:clamp(16.5px,1.6vw,19px); color:var(--ink-2)}
-.specs{
-  display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
-  background:var(--line); border:1px solid var(--line);
-  margin-top:52px;
-}
-.spec{background:var(--paper); padding:16px 18px}
-.spec dt{font-family:var(--mono); font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted)}
-.spec dd{margin:5px 0 0; font-family:var(--display); font-weight:600; font-size:15.5px; font-variant-numeric:tabular-nums}
-@media (max-width:720px){ .specs{grid-template-columns:repeat(2,1fr)} }
 
 /* ---------- headings ---------- */
 h2{font-size:clamp(24px,3vw,32px); font-weight:600; line-height:1.15}
@@ -160,23 +149,6 @@ h2{font-size:clamp(24px,3vw,32px); font-weight:600; line-height:1.15}
   .svc{grid-template-columns:32px 1fr; gap:14px 16px}
   .svc div:last-child{grid-column:2}
 }
-
-/* ---------- tools ---------- */
-.tools{margin-top:38px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px}
-.tool{
-  background:var(--surface); border:1px solid var(--line);
-  padding:22px; display:flex; flex-direction:column; gap:12px;
-  text-decoration:none;
-}
-.tool:hover{border-color:var(--accent)}
-.tool h3{font-size:17px; font-weight:600}
-.tool p{font-size:14.5px; color:var(--ink-2)}
-.tool .meta{
-  margin-top:auto; display:flex; justify-content:space-between; align-items:baseline;
-  font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.05em;
-  border-top:1px solid var(--line-soft); padding-top:11px;
-}
-.tool .go{color:var(--accent)}
 
 /* ---------- approach ---------- */
 .appr{margin-top:38px; display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:34px}
@@ -216,9 +188,6 @@ h2{font-size:clamp(24px,3vw,32px); font-weight:600; line-height:1.15}
 }
 .btn.ghost{background:none; color:var(--accent)}
 .btn:hover{background:var(--accent-ink); border-color:var(--accent-ink); color:var(--paper)}
-.contact .lines{margin-top:34px; display:flex; flex-wrap:wrap; gap:34px}
-.contact .lines div{font-size:14.5px}
-.contact .lines dt{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-bottom:4px}
 
 /* ---------- footer ---------- */
 footer{border-top:1px solid var(--line); background:var(--surface-2)}
@@ -232,10 +201,9 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
 <body>
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="#top"><span class="mark">Mente.</span><span class="brand-sub" data-en="Consulting Ltd.">Danışmanlık Ltd. Şti.</span></a>
+    <a class="brand" href="#top"><span class="mark">Mente.</span></a>
     <nav class="nav">
       <a href="#hizmetler" data-en="Services">Hizmetler</a>
-      <a href="#araclar" data-en="Tools">Araçlar</a>
       <a href="#yaklasim" data-en="Approach">Yaklaşım</a>
       <a href="#ortaklar" data-en="Partners">İş Ortakları</a>
       <a href="#hakkinda" data-en="About">Hakkında</a>
@@ -253,15 +221,9 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
   <!-- HERO -->
   <section class="sec">
     <div class="wrap hero">
-      <p class="eyebrow" data-en="Software · Energy · Manufacturing technologies">Yazılım · Enerji · İmalat teknolojileri</p>
+      <p class="eyebrow" data-en="Software · Energy · e-Transformation">Yazılım · Enerji · e-Dönüşüm</p>
       <h1 data-en="Engineering judgement, applied to business decisions.">Mühendislik disiplinini işletme kararlarına taşıyoruz.</h1>
-      <p class="lede" data-en="Mente is an independent consultancy based in Istanbul. Since 2014 we have worked on software, energy infrastructure, precision manufacturing and e-transformation projects — turning them into solutions that hold up on the shop floor, not just on paper.">Mente, İstanbul merkezli bağımsız bir danışmanlık şirketidir. 2014'ten bu yana yazılım, enerji altyapısı, hassas imalat ve e-dönüşüm projelerinde; kâğıt üstünde değil sahada işleyen çözümler üretiyoruz.</p>
-      <dl class="specs">
-        <div class="spec"><dt data-en="Founded">Kuruluş</dt><dd>2014</dd></div>
-        <div class="spec"><dt data-en="Head office">Merkez</dt><dd data-en="Kadıköy, Istanbul">Kadıköy, İstanbul</dd></div>
-        <div class="spec"><dt data-en="Structure">Yapı</dt><dd data-en="Limited company">Limited Şirket</dd></div>
-        <div class="spec"><dt data-en="Experience">Deneyim</dt><dd data-en="27 years">27 yıl</dd></div>
-      </dl>
+      <p class="lede" data-en="Mente is an independent consultancy based in Istanbul. Since 2014 we have worked on software, energy infrastructure and e-transformation projects — turning them into solutions that hold up in daily operation, not just on paper.">Mente, İstanbul merkezli bağımsız bir danışmanlık şirketidir. 2014'ten bu yana yazılım, enerji altyapısı ve e-dönüşüm projelerinde; kâğıt üstünde değil günlük işleyişte çalışan çözümler üretiyoruz.</p>
     </div>
   </section>
 
@@ -270,7 +232,7 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
     <div class="wrap sec-in">
       <p class="code" data-en="Services">Hizmetler</p>
       <div>
-        <h2 data-en="Four fields, one method">Dört alan, tek yöntem</h2>
+        <h2 data-en="Three fields, one method">Üç alan, tek yöntem</h2>
         <p class="sec-note" data-en="The subjects differ; the way of working does not. Measure first, define the problem in numbers, then build only what is needed.">Konular farklı, çalışma biçimi aynı: önce ölç, problemi sayılarla tanımla, sonra yalnızca gerekeni kur.</p>
 
         <div class="svc-list">
@@ -291,20 +253,6 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
           <article class="svc">
             <div class="svc-n">02</div>
             <div>
-              <h3 data-en="Honing &amp; precision manufacturing">Honlama ve hassas imalat</h3>
-              <div class="svc-tags">
-                <span class="tag" data-en="Machine selection">Tezgâh seçimi</span>
-                <span class="tag" data-en="Cycle time">Çevrim süresi</span>
-                <span class="tag" data-en="Cost per bore">Delik başı maliyet</span>
-                <span class="tag" data-en="Capacity planning">Kapasite planlama</span>
-              </div>
-            </div>
-            <p data-en="Bore finishing at micron tolerances: which machine fits the part, what the real cycle time is, what a bore actually costs in stone consumption, and whether the planned capacity holds. Analysis grounded in machine data, not catalogue promises.">Mikron toleransında delik işleme: hangi tezgâh parçaya uyar, gerçek çevrim süresi nedir, bir deliğin taş tüketimi cinsinden maliyeti kaçtır, planlanan kapasite tutar mı. Katalog vaadine değil, tezgâh verisine dayanan analiz.</p>
-          </article>
-
-          <article class="svc">
-            <div class="svc-n">03</div>
-            <div>
               <h3 data-en="Energy &amp; EV charging infrastructure">Enerji ve EV şarj altyapısı</h3>
               <div class="svc-tags">
                 <span class="tag" data-en="Charging operations">Şarj işletmeciliği</span>
@@ -317,7 +265,7 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
           </article>
 
           <article class="svc">
-            <div class="svc-n">04</div>
+            <div class="svc-n">03</div>
             <div>
               <h3 data-en="e-Transformation">e-Dönüşüm</h3>
               <div class="svc-tags">
@@ -334,30 +282,6 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
     </div>
   </section>
 
-  <!-- ARAÇLAR -->
-  <section class="sec" id="araclar">
-    <div class="wrap sec-in">
-      <p class="code" data-en="Tools">Araçlar</p>
-      <div>
-        <h2 data-en="Calculators, open to use">Herkese açık hesaplayıcılar</h2>
-        <p class="sec-note" data-en="Tools built for our own project work, published as they are. They run in the browser, need no installation and no account.">Kendi proje çalışmalarımız için geliştirdiğimiz, olduğu gibi yayınladığımız araçlar. Tarayıcıda çalışır; kurulum ve üyelik gerektirmez.</p>
-
-        <div class="tools">
-          <a class="tool" href="/honingcalc">
-            <h3 data-en="Honing Time Calculator">Honlama Süre Hesaplayıcı</h3>
-            <p data-en="Cycle time per part and batch, from bore geometry, stock removal and machine parameters. Machine list is editable; capacity planning and history included.">Delik geometrisi, talaş payı ve tezgâh parametrelerinden parça ve parti bazında çevrim süresi. Tezgâh listesi düzenlenebilir; kapasite planlama ve geçmiş kayıt dâhil.</p>
-            <div class="meta"><span data-en="Output: min / part">Çıktı: dk / parça</span><span class="go">→</span></div>
-          </a>
-          <a class="tool" href="/tascalc">
-            <h3 data-en="Stone Consumption &amp; Cost Calculator">Honlama Taşı Maliyet Hesaplayıcı</h3>
-            <p data-en="Cost per bore and stone set life, from part dimensions, stone set specification and unit cost. Built on the same formula set used in production costing.">Parça ölçüleri, taş seti özellikleri ve birim maliyetten delik başı maliyet ve set ömrü. Üretim maliyetlendirmesinde kullanılan formül setine dayanır.</p>
-            <div class="meta"><span data-en="Output: USD / bore">Çıktı: USD / delik</span><span class="go">→</span></div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- YAKLAŞIM -->
   <section class="sec" id="yaklasim">
     <div class="wrap sec-in">
@@ -367,7 +291,7 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
         <div class="appr">
           <div>
             <h3 data-en="Measurement before solution">Önce ölçüm, sonra çözüm</h3>
-            <p data-en="A proposal starts with the current numbers: cycle times, unit costs, error rates, invoice volumes. Without a baseline there is nothing to compare the result against.">Öneri, mevcut sayılarla başlar: çevrim süreleri, birim maliyetler, hata oranları, fatura hacmi. Başlangıç değeri olmadan sonucun karşılaştırılacağı bir referans da olmaz.</p>
+            <p data-en="A proposal starts with the current numbers: processing times, unit costs, error rates, invoice volumes. Without a baseline there is nothing to compare the result against.">Öneri, mevcut sayılarla başlar: işlem süreleri, birim maliyetler, hata oranları, fatura hacmi. Başlangıç değeri olmadan sonucun karşılaştırılacağı bir referans da olmaz.</p>
           </div>
           <div>
             <h3 data-en="Independent by design">Tedarikçi değil, danışman</h3>
@@ -388,11 +312,11 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
       <p class="code" data-en="Partners">İş Ortakları</p>
       <div>
         <h2 data-en="Who we work with">Birlikte çalıştığımız kurumlar</h2>
-        <p class="sec-note" data-en="Long-running collaborations across manufacturing, energy and software.">İmalat, enerji ve yazılım alanlarında süregelen iş birlikleri.</p>
+        <p class="sec-note" data-en="Long-running collaborations across software, energy and digital transformation.">Yazılım, enerji ve dijital dönüşüm alanlarında süregelen iş birlikleri.</p>
         <div class="prt">
           <div>
             <strong>[Firma adı 1]</strong>
-            <span data-en="Manufacturing technology">İmalat teknolojisi</span>
+            <span data-en="e-Transformation">e-Dönüşüm</span>
             <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
           </div>
           <div>
@@ -424,12 +348,12 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
         <h2 data-en="Turgut Coşkun">Turgut Coşkun</h2>
         <div class="about">
           <div>
-            <p data-en="Twenty-seven years in computer engineering and management, spent between software and heavy industry rather than in one of them. That mix is the reason Mente exists: manufacturing problems are rarely only mechanical, and software problems are rarely only technical.">Yirmi yedi yıllık bilgisayar mühendisliği ve yöneticilik geçmişi; yalnızca yazılımda ya da yalnızca sanayide değil, ikisinin arasında geçti. Mente'nin varlık sebebi de bu: imalat problemleri nadiren sadece mekanik, yazılım problemleri nadiren sadece teknik olur.</p>
-            <p data-en="Alongside consulting work, an active role in technical sales of precision honing machines — which keeps the shop-floor side of the advice current rather than theoretical.">Danışmanlık işinin yanında hassas honlama tezgâhlarının teknik satışında aktif rol; verilen tavsiyenin saha tarafını teorik değil, güncel tutuyor.</p>
+            <p data-en="Twenty-seven years in computer engineering and management, spent on both sides of the table — building the systems and running the operations that depend on them. That is the reason Mente exists: a technical decision is rarely only technical, and a commercial one rarely only commercial.">Yirmi yedi yıllık bilgisayar mühendisliği ve yöneticilik geçmişi; hem sistemleri kuran hem de o sistemlere bağlı işi yürüten tarafta geçti. Mente'nin varlık sebebi de bu: teknik bir karar nadiren sadece teknik, ticari bir karar nadiren sadece ticaridir.</p>
+            <p data-en="Working areas: process automation at corporate scale, charging infrastructure operations, and the move to electronic documents.">Çalışma alanları: kurumsal ölçekte süreç otomasyonu, şarj altyapısı işletmeciliği ve elektronik belgeye geçiş projeleri.</p>
             <p data-en="Mente was founded in 2014 as a single-partner limited company and works project by project.">Mente 2014'te tek ortaklı limited şirket olarak kuruldu ve proje bazlı çalışıyor.</p>
           </div>
           <dl class="cv">
-            <div><dt data-en="Focus">Odak</dt><dd data-en="Software / Energy / Manufacturing">Yazılım / Enerji / İmalat</dd></div>
+            <div><dt data-en="Focus">Odak</dt><dd data-en="Software / Energy / e-Transformation">Yazılım / Enerji / e-Dönüşüm</dd></div>
             <div><dt data-en="Experience">Deneyim</dt><dd data-en="27 years">27 yıl</dd></div>
             <div><dt data-en="Languages">Diller</dt><dd data-en="Turkish, English">Türkçe, İngilizce</dd></div>
             <div><dt data-en="Location">Konum</dt><dd data-en="Istanbul">İstanbul</dd></div>
@@ -445,14 +369,8 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
     <div class="wrap contact">
       <h2 data-en="Tell us the problem in numbers — we will tell you whether it is worth solving.">Problemi sayılarla anlatın; çözmeye değip değmeyeceğini birlikte görelim.</h2>
       <div class="cta">
-        <a class="btn" href="mailto:info@mente.com.tr">info@mente.com.tr</a>
-        <a class="btn ghost" href="mailto:tc@mente.com.tr" data-en="Direct contact">Doğrudan iletişim</a>
+        <a class="btn" href="mailto:tc@mente.com.tr">tc@mente.com.tr</a>
       </div>
-      <dl class="lines">
-        <div><dt data-en="Office">Ofis</dt><dd data-en="Kadıköy, Istanbul">Kadıköy, İstanbul</dd></div>
-        <div><dt data-en="Phone">Telefon</dt><dd>[+90 ___ ___ __ __]</dd></div>
-        <div><dt data-en="Hours">Çalışma saatleri</dt><dd data-en="Weekdays 09:00 – 18:00">Hafta içi 09:00 – 18:00</dd></div>
-      </dl>
     </div>
   </section>
 </main>
@@ -464,8 +382,7 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
   </div>
   <div class="wrap foot-in">
     <span>© 2026 Mente Yazılım Enerji Danışmanlık Ltd. Şti.</span>
-    <span data-en="Trade registry / Tax office: [to be filled]">Ticaret sicil / Vergi dairesi: [doldurulacak]</span>
-    <span><a href="mailto:info@mente.com.tr">info@mente.com.tr</a> · mente.com.tr</span>
+    <span><a href="mailto:tc@mente.com.tr">tc@mente.com.tr</a> · mente.com.tr</span>
   </div>
 </footer>
 
