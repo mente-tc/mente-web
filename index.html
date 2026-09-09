@@ -78,11 +78,11 @@ p{margin:0}
   backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line);
 }
-.top-in{display:flex; align-items:center; gap:24px; height:62px}
+.top-in{display:flex; align-items:center; gap:24px; height:80px}
 .brand{display:flex; align-items:baseline; gap:11px; text-decoration:none; margin-right:auto}
 .mark{
   font-family:Georgia,"Times New Roman","Nimbus Roman",serif;
-  font-weight:400; font-size:25px; line-height:1; letter-spacing:-0.005em;
+  font-weight:400; font-size:40px; line-height:1; letter-spacing:-0.005em;
   color:var(--ink);
 }
 .nav{display:flex; gap:22px}
@@ -99,7 +99,11 @@ p{margin:0}
 }
 .chip:hover{border-color:var(--accent); color:var(--accent)}
 .chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--paper)}
-@media (max-width:860px){ .nav{display:none} }
+@media (max-width:860px){
+  .nav{display:none}
+  .top-in{height:68px; gap:16px}
+  .brand .mark{font-size:33px}
+}
 
 /* ---------- rail layout ---------- */
 .sec{border-bottom:1px solid var(--line-soft)}
