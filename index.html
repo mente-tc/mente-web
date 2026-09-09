@@ -158,15 +158,15 @@ h2{font-size:clamp(24px,3vw,32px); font-weight:600; line-height:1.15}
 .appr p{font-size:14.5px; color:var(--ink-2)}
 
 /* ---------- partners ---------- */
-.prt{margin-top:34px; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line)}
-.prt > div{background:var(--paper); padding:20px}
-.prt strong{font-family:var(--display); font-size:16px; font-weight:600; display:block}
-.prt span{font-family:var(--mono); font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; color:var(--accent); display:block; margin:8px 0 6px}
-.prt p{font-size:14px; color:var(--ink-2)}
-.draft{
-  margin-top:16px; font-family:var(--mono); font-size:11.5px; color:var(--signal);
-  border-left:2px solid var(--signal); padding-left:10px; line-height:1.5;
+.prt{margin-top:34px; display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line)}
+.prt > div{background:var(--paper); padding:20px 20px 24px}
+.prt h3{
+  font-family:var(--mono); font-size:10.5px; font-weight:500;
+  letter-spacing:0.12em; text-transform:uppercase; color:var(--accent);
+  margin-bottom:15px;
 }
+.prt ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px}
+.prt li{font-family:var(--display); font-size:15.5px; font-weight:500; letter-spacing:-0.005em; color:var(--ink)}
 
 /* ---------- about ---------- */
 .about{margin-top:24px; display:grid; grid-template-columns:1.3fr 1fr; gap:44px; align-items:start}
@@ -317,27 +317,40 @@ footer{border-top:1px solid var(--line); background:var(--surface-2)}
         <p class="sec-note" data-en="Long-running collaborations across software, energy and digital transformation.">Yazılım, enerji ve dijital dönüşüm alanlarında süregelen iş birlikleri.</p>
         <div class="prt">
           <div>
-            <strong>[Firma adı 1]</strong>
-            <span data-en="e-Transformation">e-Dönüşüm</span>
-            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+            <h3 data-en="e-Transformation">e-Dönüşüm</h3>
+            <ul>
+              <li>Süper Entegratör</li>
+              <li>Mysoft</li>
+              <li>Sovos</li>
+            </ul>
           </div>
           <div>
-            <strong>[Firma adı 2]</strong>
-            <span data-en="Energy / charging">Enerji / şarj</span>
-            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+            <h3 data-en="Energy / Charging">Enerji / Şarj</h3>
+            <ul>
+              <li>EFTA</li>
+              <li>İspirli Enerji</li>
+              <li>İ-Şarj</li>
+              <li>Raquun</li>
+            </ul>
           </div>
           <div>
-            <strong>[Firma adı 3]</strong>
-            <span data-en="Software">Yazılım</span>
-            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+            <h3 data-en="Software">Yazılım</h3>
+            <ul>
+              <li>Evrim</li>
+              <li>Raquun</li>
+              <li>Süper Entegratör</li>
+              <li>Dalnet</li>
+            </ul>
           </div>
           <div>
-            <strong>[Firma adı 4]</strong>
-            <span data-en="Consulting">Danışmanlık</span>
-            <p data-en="One line describing the collaboration.">İş birliğini bir cümleyle anlatan açıklama.</p>
+            <h3 data-en="Consulting">Danışmanlık</h3>
+            <ul>
+              <li>ISIS Danışmanlık</li>
+              <li>İ-Şarj</li>
+              <li>Mikrotek</li>
+            </ul>
           </div>
         </div>
-        <p class="draft" data-en="DRAFT — fill in the names yourself. Only name a company whose written or verbal consent you have; otherwise describe the sector without naming it (&quot;a Swiss precision machine manufacturer&quot;).">TASLAK — isimleri sen dolduracaksın. Yalnızca yazılı ya da sözlü onayını aldığın firmaları isimle yaz; onay yoksa isim vermeden sektörle tarif et ("İsviçreli bir hassas tezgâh üreticisi").</p>
       </div>
     </div>
   </section>
