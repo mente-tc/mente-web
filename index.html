@@ -145,9 +145,11 @@ h2{font-size:clamp(24px,3vw,32px); font-weight:600; line-height:1.15}
   color:var(--muted); border:1px solid var(--line); padding:3px 7px; border-radius:2px;
 }
 .svc p{color:var(--ink-2); font-size:15px}
-@media (max-width:720px){
-  .svc{grid-template-columns:32px 1fr; gap:14px 16px}
-  .svc div:last-child{grid-column:2}
+@media (max-width:860px){
+  .svc{grid-template-columns:34px 1fr; gap:10px 14px}
+  .svc > div:first-child{grid-row:1}
+  .svc > div:nth-child(2){grid-column:2}
+  .svc > p{grid-column:2; margin-top:4px}
 }
 
 /* ---------- approach ---------- */
